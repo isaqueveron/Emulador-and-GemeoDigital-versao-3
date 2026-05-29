@@ -50,7 +50,7 @@ O núcleo do projeto foi construído utilizando Python estruturado, priorizando 
 * **O que faz:** Encapsula a classe estrutural `TurbinaVirtual`. Modela fenômenos físicos complexos como a potência absorvida do vento ($P_{wind} = 0.5 \cdot \rho \cdot \pi R^2 \cdot v^3 \cdot C_p$), torque aerodinâmico, perdas por efeito Joule na armadura e cálculo dinâmico da tensão do capacitor de barramento. Também implementa a lógica das transições de estado automáticas do algoritmo MPPT (ex: acionamento e conexão de carga ao registrar tensões superiores a 90V por mais de 5 segundos). *Nota: Este script funciona como biblioteca de classes e não deve ser executado diretamente.*
 
 ### 4. `parametros.py`
-* **O que faz:** Script de configuração estática contendo os coeficientes obtidos por identificação paramétrica experimental. Define parâmetros críticos do sistema como a constante de velocidade do gerador ($2.6757 \text{ V}\cdot\text{rad/s}$), offset de Força Eletromotriz ($9.5104\text{ V}$), resistência de armadura ($25.0\ \Omega$), inércia do rotor e os limites de segurança mecânica (`TAXA_VARIACAO_RPM_MAX = 100`). *Nota: Arquivo de configuração, não executável.*
+* **O que faz:** Script de configuração estática contendo os coeficientes obtidos por identificação paramétrica experimental. Define parâmetros críticos do sistema como a constante de velocidade do gerador ($2.6757 \text{ V}\cdot\text{rad/s}$), offset de Força Eletromotriz ($9.5104\text{ V}$), inércia do rotor e os limites de segurança mecânica (`TAXA_VARIACAO_RPM_MAX = 100`). *Nota: Arquivo de configuração, não executável.*
 
 ---
 
