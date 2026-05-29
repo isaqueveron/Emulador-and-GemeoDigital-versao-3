@@ -1,0 +1,34 @@
+=======================================================
+=== HISTÓRICO DE EVENTOS DO SISTEMA (Natural) ===
+=======================================================
+[1.643s] [HW] Coef. torque estático alterado para: False
+[1.740s] [TWIN] Coef. torque estático alterado para: False
+[8.048s] [MPPT] Inversor ligou (Tensão > 90V por 5.0s)
+[8.048s] [TWIN] Flag vazio alterado para: False
+=======================================================
+
+=======================================================
+=== HISTÓRICO DE EVENTOS DO SISTEMA (Escada) ===
+=======================================================
+[11.004s] [HW] Coef. torque estático alterado para: False
+[11.514s] [TWIN] Coef. torque estático alterado para: False
+[20.000s] [TWIN] Coef. torque estático alterado para: True
+[20.012s] [HW] Coef. torque estático alterado para: False
+[20.069s] [TWIN] Coef. torque estático alterado para: False
+[26.054s] [MPPT] Inversor ligou (Tensão > 90V por 5.0s)
+[26.054s] [TWIN] Flag vazio alterado para: False
+[86.405s] [MPPT] Inversor desligou! (Tensão caiu abaixo de 90V)
+[86.405s] [TWIN] Flag vazio alterado para: True
+=======================================================
+
+=======================================================
+=== HISTÓRICO DE EVENTOS DO SISTEMA (Constante) ===
+=======================================================
+[0.251s] [HW] Coef. torque estático alterado para: False
+[0.301s] [HW] Coef. torque estático alterado para: False
+[2.840s] [TWIN] Coef. torque estático alterado para: False
+[2.853s] [TWIN] Coef. torque estático alterado para: True
+[2.871s] [TWIN] Coef. torque estático alterado para: False
+[9.248s] [MPPT] Inversor ligou (Tensão > 90V por 5.0s)
+[9.248s] [TWIN] Flag vazio alterado para: False
+=======================================================
